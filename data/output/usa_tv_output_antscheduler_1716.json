@@ -1,0 +1,136 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Channel_295_0",
+            "channel_id": 295,
+            "start": 360,
+            "end": 390
+        },
+        {
+            "program_id": "Channel_516_1",
+            "channel_id": 516,
+            "start": 390,
+            "end": 420
+        },
+        {
+            "program_id": "FOX_News_1",
+            "channel_id": 8,
+            "start": 420,
+            "end": 450
+        },
+        {
+            "program_id": "FOX_News_2",
+            "channel_id": 8,
+            "start": 450,
+            "end": 480
+        },
+        {
+            "program_id": "Cartoon_Network_1",
+            "channel_id": 25,
+            "start": 480,
+            "end": 510
+        },
+        {
+            "program_id": "Channel_314_2",
+            "channel_id": 314,
+            "start": 510,
+            "end": 540
+        },
+        {
+            "program_id": "Channel_1074_3",
+            "channel_id": 1074,
+            "start": 540,
+            "end": 570
+        },
+        {
+            "program_id": "Channel_780_6",
+            "channel_id": 780,
+            "start": 570,
+            "end": 600
+        },
+        {
+            "program_id": "Channel_802_3",
+            "channel_id": 802,
+            "start": 600,
+            "end": 690
+        },
+        {
+            "program_id": "Channel_687_3",
+            "channel_id": 687,
+            "start": 690,
+            "end": 810
+        },
+        {
+            "program_id": "Channel_421_6",
+            "channel_id": 421,
+            "start": 810,
+            "end": 870
+        },
+        {
+            "program_id": "Channel_280_7",
+            "channel_id": 280,
+            "start": 870,
+            "end": 900
+        },
+        {
+            "program_id": "ABC_6",
+            "channel_id": 0,
+            "start": 900,
+            "end": 930
+        },
+        {
+            "program_id": "Channel_609_7",
+            "channel_id": 609,
+            "start": 930,
+            "end": 960
+        },
+        {
+            "program_id": "Channel_803_8",
+            "channel_id": 803,
+            "start": 960,
+            "end": 1050
+        },
+        {
+            "program_id": "Channel_401_8",
+            "channel_id": 401,
+            "start": 1050,
+            "end": 1080
+        },
+        {
+            "program_id": "Channel_796_13",
+            "channel_id": 796,
+            "start": 1080,
+            "end": 1110
+        },
+        {
+            "program_id": "Channel_667_11",
+            "channel_id": 667,
+            "start": 1110,
+            "end": 1170
+        },
+        {
+            "program_id": "Channel_128_14",
+            "channel_id": 128,
+            "start": 1170,
+            "end": 1200
+        },
+        {
+            "program_id": "MSNBC_10XYZ",
+            "channel_id": 7,
+            "start": 1200,
+            "end": 1320
+        },
+        {
+            "program_id": "ESPN2_11",
+            "channel_id": 6,
+            "start": 1320,
+            "end": 1350
+        },
+        {
+            "program_id": "FOX_News_15",
+            "channel_id": 8,
+            "start": 1350,
+            "end": 1440
+        }
+    ]
+}

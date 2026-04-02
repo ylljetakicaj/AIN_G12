@@ -1,0 +1,112 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "RTL_Life_1",
+            "channel_id": 11,
+            "start": 360,
+            "end": 420
+        },
+        {
+            "program_id": "SportKlub2_3",
+            "channel_id": 6,
+            "start": 420,
+            "end": 540
+        },
+        {
+            "program_id": "N1_Hrvatska_4",
+            "channel_id": 9,
+            "start": 540,
+            "end": 600
+        },
+        {
+            "program_id": "DomaTV_4",
+            "channel_id": 12,
+            "start": 600,
+            "end": 660
+        },
+        {
+            "program_id": "DomaTV_5",
+            "channel_id": 12,
+            "start": 660,
+            "end": 690
+        },
+        {
+            "program_id": "HRT2_6",
+            "channel_id": 1,
+            "start": 690,
+            "end": 720
+        },
+        {
+            "program_id": "HRT2_7",
+            "channel_id": 1,
+            "start": 720,
+            "end": 750
+        },
+        {
+            "program_id": "HRT2_8",
+            "channel_id": 1,
+            "start": 750,
+            "end": 780
+        },
+        {
+            "program_id": "HRT2_9",
+            "channel_id": 1,
+            "start": 780,
+            "end": 810
+        },
+        {
+            "program_id": "HRT2_10",
+            "channel_id": 1,
+            "start": 810,
+            "end": 870
+        },
+        {
+            "program_id": "NovaTV_9",
+            "channel_id": 3,
+            "start": 870,
+            "end": 930
+        },
+        {
+            "program_id": "SportKlub2_9",
+            "channel_id": 6,
+            "start": 930,
+            "end": 960
+        },
+        {
+            "program_id": "CMC_10",
+            "channel_id": 10,
+            "start": 960,
+            "end": 1080
+        },
+        {
+            "program_id": "ArenaSport1_10",
+            "channel_id": 7,
+            "start": 1080,
+            "end": 1110
+        },
+        {
+            "program_id": "Oxygen_11",
+            "channel_id": 13,
+            "start": 1110,
+            "end": 1140
+        },
+        {
+            "program_id": "HRT2_15",
+            "channel_id": 1,
+            "start": 1170,
+            "end": 1230
+        },
+        {
+            "program_id": "ArenaSport2_12",
+            "channel_id": 8,
+            "start": 1230,
+            "end": 1320
+        },
+        {
+            "program_id": "RTL_Hrvatska_11",
+            "channel_id": 4,
+            "start": 1320,
+            "end": 1380
+        }
+    ]
+}
