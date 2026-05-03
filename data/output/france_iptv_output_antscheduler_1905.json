@@ -1,0 +1,154 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "rtpi_fr_masterchef_portugal_2026-01-04_0000",
+            "channel_id": 305,
+            "start": 0,
+            "end": 39
+        },
+        {
+            "program_id": "canal_sport360_fr_le_jt_2026-01-04_0045",
+            "channel_id": 81,
+            "start": 45,
+            "end": 75
+        },
+        {
+            "program_id": "c_sport_fr_au_micro_une_nouvelle_vo_2026-01-04_0075",
+            "channel_id": 53,
+            "start": 75,
+            "end": 120
+        },
+        {
+            "program_id": "bbcworldnews_fr_bbc_news_2026-01-04_0120",
+            "channel_id": 33,
+            "start": 120,
+            "end": 150
+        },
+        {
+            "program_id": "parispremiere_fr_programmes_de_la_nuit_2026-01-04_0150",
+            "channel_id": 265,
+            "start": 150,
+            "end": 445
+        },
+        {
+            "program_id": "histoire_fr_les_r_sistants_de_mautha_2026-01-04_0445",
+            "channel_id": 181,
+            "start": 445,
+            "end": 500
+        },
+        {
+            "program_id": "w9_fr_g_n_ration_hit_machine_2026-01-04_0500",
+            "channel_id": 378,
+            "start": 500,
+            "end": 560
+        },
+        {
+            "program_id": "france5_fr_silence_a_pousse_2026-01-04_0560",
+            "channel_id": 172,
+            "start": 560,
+            "end": 625
+        },
+        {
+            "program_id": "rtl9_fr_indices_2026-01-04_0625",
+            "channel_id": 302,
+            "start": 625,
+            "end": 685
+        },
+        {
+            "program_id": "tvppolonia_fr_mak_owicz_w_podr_y_2026-01-04_0685",
+            "channel_id": 353,
+            "start": 685,
+            "end": 715
+        },
+        {
+            "program_id": "automotolachaine_f_dashcam_en_action_2026-01-04_0715",
+            "channel_id": 31,
+            "start": 715,
+            "end": 770
+        },
+        {
+            "program_id": "2mmaroc_fr_sahatna_jmi3_2026-01-04_0770",
+            "channel_id": 3,
+            "start": 770,
+            "end": 800
+        },
+        {
+            "program_id": "abolatv_fr_motores_2026-01-04_0800",
+            "channel_id": 10,
+            "start": 800,
+            "end": 830
+        },
+        {
+            "program_id": "novelastv_fr_klass_95_le_pouvoir_de_l_2026-01-04_0830",
+            "channel_id": 240,
+            "start": 830,
+            "end": 880
+        },
+        {
+            "program_id": "enquetescriminelle_enqu_tes_criminelles_2026-01-04_0880",
+            "channel_id": 128,
+            "start": 880,
+            "end": 935
+        },
+        {
+            "program_id": "rmcmystere_fr_meurtres_insolites_2026-01-04_0935",
+            "channel_id": 289,
+            "start": 935,
+            "end": 967
+        },
+        {
+            "program_id": "rmcmystere_fr_meurtres_insolites_2026-01-04_0967",
+            "channel_id": 289,
+            "start": 967,
+            "end": 1000
+        },
+        {
+            "program_id": "6ter_fr_macgyver2016_2026-01-04_1000",
+            "channel_id": 5,
+            "start": 1000,
+            "end": 1050
+        },
+        {
+            "program_id": "tv7bordeaux_fr_champs_libres_2026-01-04_1050",
+            "channel_id": 344,
+            "start": 1050,
+            "end": 1080
+        },
+        {
+            "program_id": "canal32_fr_les_dossiers_du_jeudi_2026-01-04_1080",
+            "channel_id": 97,
+            "start": 1080,
+            "end": 1110
+        },
+        {
+            "program_id": "phoenixcne_fr_europe_china_journal_2026-01-04_1110",
+            "channel_id": 267,
+            "start": 1110,
+            "end": 1140
+        },
+        {
+            "program_id": "ligue1_2_fr_ligue_1_2_2026-01-04_1140",
+            "channel_id": 206,
+            "start": 1140,
+            "end": 1295
+        },
+        {
+            "program_id": "trek_fr_abyss_les_plongeurs_de_l_2026-01-04_1295",
+            "channel_id": 340,
+            "start": 1295,
+            "end": 1350
+        },
+        {
+            "program_id": "eurosport2_fr_val_di_fiemme_2026-01-04_1350",
+            "channel_id": 124,
+            "start": 1350,
+            "end": 1380
+        },
+        {
+            "program_id": "superrtl_fr_new_york_unit_sp_ciale_2026-01-04_1380",
+            "channel_id": 322,
+            "start": 1380,
+            "end": 1430
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "470446_sportscentre_2026-01-04_0060",
+            "channel_id": 158,
+            "start": 60,
+            "end": 120
+        },
+        {
+            "program_id": "470686_triple_play_2026-01-04_0120",
+            "channel_id": 397,
+            "start": 120,
+            "end": 150
+        },
+        {
+            "program_id": "470566_l_info_c_est_du_s_rieux_2026-01-04_0150",
+            "channel_id": 277,
+            "start": 150,
+            "end": 180
+        },
+        {
+            "program_id": "470504_fox_news_live_2026-01-04_0180",
+            "channel_id": 216,
+            "start": 180,
+            "end": 240
+        },
+        {
+            "program_id": "470842_live_nfl_countdown_2026-01-04_0240",
+            "channel_id": 553,
+            "start": 240,
+            "end": 390
+        },
+        {
+            "program_id": "470575_kalimera_patrida_2026-01-04_0390",
+            "channel_id": 286,
+            "start": 390,
+            "end": 420
+        },
+        {
+            "program_id": "470896_live_nba_basketball_2026-01-04_0420",
+            "channel_id": 607,
+            "start": 420,
+            "end": 570
+        },
+        {
+            "program_id": "470313_ctv_news_weekend_2026-01-04_0570",
+            "channel_id": 25,
+            "start": 570,
+            "end": 600
+        },
+        {
+            "program_id": "470863_music_2023_2026-01-04_0600",
+            "channel_id": 574,
+            "start": 600,
+            "end": 630
+        },
+        {
+            "program_id": "470912_sardari_2026-01-04_0630",
+            "channel_id": 623,
+            "start": 630,
+            "end": 690
+        },
+        {
+            "program_id": "470463_live_sports_30_2026-01-04_0690",
+            "channel_id": 175,
+            "start": 690,
+            "end": 720
+        },
+        {
+            "program_id": "470772_employable_me_2026-01-04_0720",
+            "channel_id": 483,
+            "start": 720,
+            "end": 780
+        },
+        {
+            "program_id": "470516_chassomaniak_next_genera_2026-01-04_0780",
+            "channel_id": 227,
+            "start": 780,
+            "end": 810
+        },
+        {
+            "program_id": "470335_gn_sports_weekend_2026-01-04_0810",
+            "channel_id": 47,
+            "start": 810,
+            "end": 840
+        },
+        {
+            "program_id": "470454_vanderpump_rules_2026-01-04_0840",
+            "channel_id": 166,
+            "start": 840,
+            "end": 900
+        },
+        {
+            "program_id": "470542_hudson_and_rex_2026-01-04_0900",
+            "channel_id": 253,
+            "start": 900,
+            "end": 960
+        },
+        {
+            "program_id": "470292_deelicious_2026-01-04_0960",
+            "channel_id": 4,
+            "start": 960,
+            "end": 990
+        },
+        {
+            "program_id": "470509_masterchef_australia_2026-01-04_0990",
+            "channel_id": 220,
+            "start": 990,
+            "end": 1050
+        },
+        {
+            "program_id": "470337_thirai_munottam_2026-01-04_1050",
+            "channel_id": 49,
+            "start": 1050,
+            "end": 1080
+        },
+        {
+            "program_id": "470443_sportsnet_central_2026-01-04_1080",
+            "channel_id": 155,
+            "start": 1080,
+            "end": 1140
+        },
+        {
+            "program_id": "470453_forensic_files_2026-01-04_1140",
+            "channel_id": 165,
+            "start": 1140,
+            "end": 1170
+        },
+        {
+            "program_id": "470639_it_is_written_canada_2026-01-04_1170",
+            "channel_id": 350,
+            "start": 1170,
+            "end": 1200
+        },
+        {
+            "program_id": "470297_ctv_news_montreal_2026-01-04_1200",
+            "channel_id": 9,
+            "start": 1200,
+            "end": 1230
+        },
+        {
+            "program_id": "470341_paid_programming_2026-01-04_1230",
+            "channel_id": 53,
+            "start": 1230,
+            "end": 1260
+        },
+        {
+            "program_id": "470539_citynews_tonight_winnipe_2026-01-04_1260",
+            "channel_id": 250,
+            "start": 1260,
+            "end": 1290
+        },
+        {
+            "program_id": "470607_100_huntley_street_2026-01-04_1290",
+            "channel_id": 318,
+            "start": 1290,
+            "end": 1320
+        },
+        {
+            "program_id": "470599_inside_politics_with_man_2026-01-04_1320",
+            "channel_id": 310,
+            "start": 1320,
+            "end": 1380
+        },
+        {
+            "program_id": "470895_citynews_tonight_calgary_2026-01-04_1380",
+            "channel_id": 606,
+            "start": 1380,
+            "end": 1410
+        }
+    ]
+}

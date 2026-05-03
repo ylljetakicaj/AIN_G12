@@ -9,10 +9,10 @@ from utils.algorithm_utils import AlgorithmUtils
 from utils.scheduler_utils import SchedulerUtils
 from utils.utils import Utils
 
-NUM_ANTS        = 10
-NUM_GENERATIONS = 5
-ALPHA           = 1.0
-BETA            = 2.0
+NUM_ANTS        = 100
+NUM_GENERATIONS = 10
+ALPHA           = 2.0
+BETA            = 1.0
 RHO             = 0.3
 Q               = 100.0
 RANDOM_FACTOR   = 0.15
