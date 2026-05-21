@@ -379,3 +379,66 @@ EXPLORATION <-----------------------------------------> EXPLOITATION
 ```
 
 ---
+
+## ACO + Local Search Hybrid Optimization
+
+### Overview
+
+After ACO produces its best solution, a **Hill Climbing Local Search** post-processor is applied once to further improve the result. The hybrid pipeline:
+
+1. Run ACO normally → obtain best ACO solution and score
+2. Apply Hill Climbing to the ACO solution → obtain improved solution
+3. Compare ACO score vs LS-improved score (delta, percentage improvement)
+
+### Local Search Algorithm: Hill Climbing
+
+Strict hill climbing — only accepting moves that **strictly improve** the current score. Stops when no operator finds an improvement or `max_iterations` is reached (default: 100).
+
+### Neighborhood Operators
+
+**Operator 1 — In-place channel swap**
+
+At each scheduled position `i`, try every other channel whose program starts *and ends* at exactly the same time as the current program. The same-end-time constraint guarantees no cascade effect on the tail of the schedule.
+
+- Also re-evaluates position `i+1` to account for a changed switch penalty.
+- Checks all constraints (min_duration, max_consecutive_genre, priority_blocks) before accepting.
+- Accepts the swap only if `delta > 0` (strict improvement).
+
+**Operator 2 — Greedy tail rebuild**
+
+Identifies the `max_rebuilds` (default: 5) slots with the lowest fitness scores. For each such slot `i`, removes the entire suffix `scheduled[i:]` and rebuilds it greedily from `scheduled[i].start` using the same greedy heuristic as the ACO fallback. Accepts the rebuild only if the new tail score strictly exceeds the old tail score.
+
+### Stopping Criteria
+
+- No operator finds an improvement in a full iteration → stop immediately
+- `max_iterations` outer loop limit reached (default: 100)
+
+### Pipeline Integration
+
+```
+ACO (10 ants, 5 generations by default)
+    └─> best ACO solution
+            └─> Hill Climbing (max 100 iterations)
+                    ├─ Operator 1: channel swaps (all positions, each iteration)
+                    └─ Operator 2: tail rebuild from worst-fitness slots
+```
+
+Each ACO run's LS improvement is tracked independently. The experiment runner records `ls_score`, `ls_improvement`, and `ls_time_sec` per run, and `ls_best`, `ls_avg`, `ls_improvement_avg` per config summary.
+
+### Usage
+
+**Single run with Local Search:**
+```bash
+python main.py --algo ant --local-search
+python main.py --algo ant --local-search --ls-iterations 200
+```
+
+**Experiment runner with Local Search (10 runs × 5 configs × all instances):**
+```bash
+python experiment_runner.py --local-search
+python experiment_runner.py --local-search --ls-iterations 150 --instances germany kosovo
+```
+
+Output CSV/JSON will include additional LS columns: `ls_score`, `ls_improvement`, `ls_time_sec` (per run) and `ls_best`, `ls_avg`, `ls_improvement_avg`, `ls_total_time_sec` (per config summary).
+
+---
