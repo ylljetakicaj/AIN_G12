@@ -447,7 +447,7 @@ Best score achieved per instance across all 5 configurations (10 runs each).
 `*` china_pw ACO scores are taken from the ACO+LS experiment run (not included in the standalone ACO experiment).
 
 | Instance | ACO Best | ACO+LS Best | Improvement | Improvement % |
-|---|---:|---|---:|---|---:|---:|
+|---|---:|---:|---:|---:|
 | australia_iptv | 2,578 | 2,881 | +303 | +11.8% |
 | canada_pw | 2,631 | 3,680 | +1,049 | +39.9% |
 | china_pw* | 1,959 | 2,007 | +48 | +2.5% |
