@@ -1,0 +1,4060 @@
+{
+  "meta": {
+    "num_runs": 10,
+    "time_limit_sec": 300,
+    "max_run_sec": 300,
+    "configs": {
+      "C1_Baseline": {
+        "description": "Default ACO - balanced exploration/exploitation",
+        "num_ants": 100,
+        "num_generations": 10,
+        "alpha": 2.0,
+        "beta": 1.0,
+        "rho": 0.3,
+        "random_factor": 0.15
+      },
+      "C2_Exploitation": {
+        "description": "Exploitation-heavy: high alpha, slow evaporation, low randomness",
+        "num_ants": 50,
+        "num_generations": 20,
+        "alpha": 3.0,
+        "beta": 0.5,
+        "rho": 0.2,
+        "random_factor": 0.05
+      },
+      "C3_Exploration": {
+        "description": "Exploration-heavy: high beta, fast evaporation, high randomness",
+        "num_ants": 80,
+        "num_generations": 15,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.5,
+        "random_factor": 0.3
+      },
+      "C4_Balanced": {
+        "description": "Balanced: alpha = beta, moderate evaporation and randomness",
+        "num_ants": 60,
+        "num_generations": 15,
+        "alpha": 1.5,
+        "beta": 1.5,
+        "rho": 0.35,
+        "random_factor": 0.1
+      },
+      "C5_WidePopulation": {
+        "description": "Wide population: many ants, few generations, moderate params",
+        "num_ants": 150,
+        "num_generations": 5,
+        "alpha": 2.0,
+        "beta": 1.5,
+        "rho": 0.25,
+        "random_factor": 0.2
+      }
+    }
+  },
+  "runs": [
+    {
+      "instance": "australia_iptv",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 2540,
+      "duration_sec": 230.119,
+      "timed_out": false
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 2474,
+      "duration_sec": 234.723,
+      "timed_out": false
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 2535,
+      "duration_sec": 227.549,
+      "timed_out": false
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 2578,
+      "duration_sec": 177.89,
+      "timed_out": false
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 2551,
+      "duration_sec": 175.162,
+      "timed_out": false
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 2495,
+      "duration_sec": 175.25,
+      "timed_out": false
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 2438,
+      "duration_sec": 130.263,
+      "timed_out": false
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 2461,
+      "duration_sec": 685.692,
+      "timed_out": false
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 2486,
+      "duration_sec": 115.506,
+      "timed_out": false
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 2489,
+      "duration_sec": 112.39,
+      "timed_out": false
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 2557,
+      "duration_sec": 110.399,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 2532,
+      "duration_sec": 168.883,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 2631,
+      "duration_sec": 161.411,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 2520,
+      "duration_sec": 156.127,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 2559,
+      "duration_sec": 152.61,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 2391,
+      "duration_sec": 182.559,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 2498,
+      "duration_sec": 190.069,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 2457,
+      "duration_sec": 139.904,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 2464,
+      "duration_sec": 145.822,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C4_Balanced",
+      "run": 3,
+      "score": 2458,
+      "duration_sec": 146.713,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 2542,
+      "duration_sec": 142.547,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 2464,
+      "duration_sec": 140.274,
+      "timed_out": false
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 2551,
+      "duration_sec": 147.137,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 1703,
+      "duration_sec": 2.371,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 1591,
+      "duration_sec": 2.7,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 3,
+      "score": 1651,
+      "duration_sec": 3.229,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 4,
+      "score": 1645,
+      "duration_sec": 2.662,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 5,
+      "score": 1593,
+      "duration_sec": 2.659,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 6,
+      "score": 1695,
+      "duration_sec": 3.164,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 7,
+      "score": 1600,
+      "duration_sec": 2.494,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 8,
+      "score": 1643,
+      "duration_sec": 2.542,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 9,
+      "score": 1649,
+      "duration_sec": 2.52,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 10,
+      "score": 1618,
+      "duration_sec": 2.389,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 1486,
+      "duration_sec": 2.403,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 1595,
+      "duration_sec": 2.548,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 3,
+      "score": 1603,
+      "duration_sec": 2.304,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 4,
+      "score": 1482,
+      "duration_sec": 2.509,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 5,
+      "score": 1595,
+      "duration_sec": 2.578,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 6,
+      "score": 1664,
+      "duration_sec": 2.632,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 7,
+      "score": 1705,
+      "duration_sec": 2.538,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 8,
+      "score": 1626,
+      "duration_sec": 2.738,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 9,
+      "score": 1652,
+      "duration_sec": 2.589,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 10,
+      "score": 1596,
+      "duration_sec": 2.371,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 1692,
+      "duration_sec": 2.981,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 1800,
+      "duration_sec": 3.268,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 3,
+      "score": 1861,
+      "duration_sec": 4.402,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 4,
+      "score": 1642,
+      "duration_sec": 3.657,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 5,
+      "score": 1809,
+      "duration_sec": 3.084,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 6,
+      "score": 1755,
+      "duration_sec": 4.445,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 7,
+      "score": 1818,
+      "duration_sec": 3.689,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 8,
+      "score": 1740,
+      "duration_sec": 2.861,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 9,
+      "score": 1867,
+      "duration_sec": 3.033,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 10,
+      "score": 1699,
+      "duration_sec": 3.054,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 1686,
+      "duration_sec": 2.249,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 1661,
+      "duration_sec": 2.132,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 3,
+      "score": 1740,
+      "duration_sec": 2.217,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 4,
+      "score": 1819,
+      "duration_sec": 2.206,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 5,
+      "score": 1651,
+      "duration_sec": 2.225,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 6,
+      "score": 1681,
+      "duration_sec": 2.343,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 7,
+      "score": 1649,
+      "duration_sec": 2.46,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 8,
+      "score": 1643,
+      "duration_sec": 2.28,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 9,
+      "score": 1680,
+      "duration_sec": 2.426,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 10,
+      "score": 1598,
+      "duration_sec": 2.238,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 1761,
+      "duration_sec": 1.982,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 1700,
+      "duration_sec": 1.934,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 1678,
+      "duration_sec": 1.731,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 4,
+      "score": 1750,
+      "duration_sec": 2.127,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 5,
+      "score": 1741,
+      "duration_sec": 1.98,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 6,
+      "score": 1795,
+      "duration_sec": 1.979,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 7,
+      "score": 1649,
+      "duration_sec": 1.946,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 8,
+      "score": 1635,
+      "duration_sec": 1.992,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 9,
+      "score": 1974,
+      "duration_sec": 2.856,
+      "timed_out": false
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 10,
+      "score": 1829,
+      "duration_sec": 2.796,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 2013,
+      "duration_sec": 58.393,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 1943,
+      "duration_sec": 59.705,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C1_Baseline",
+      "run": 3,
+      "score": 2029,
+      "duration_sec": 59.024,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C1_Baseline",
+      "run": 4,
+      "score": 1913,
+      "duration_sec": 58.392,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C1_Baseline",
+      "run": 5,
+      "score": 2012,
+      "duration_sec": 59.888,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C1_Baseline",
+      "run": 6,
+      "score": 1966,
+      "duration_sec": 56.433,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 2047,
+      "duration_sec": 51.097,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 1968,
+      "duration_sec": 55.045,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 3,
+      "score": 1918,
+      "duration_sec": 56.355,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 4,
+      "score": 1944,
+      "duration_sec": 54.133,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 5,
+      "score": 1975,
+      "duration_sec": 54.853,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 6,
+      "score": 1864,
+      "duration_sec": 51.542,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 2069,
+      "duration_sec": 61.728,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 1994,
+      "duration_sec": 61.412,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C3_Exploration",
+      "run": 3,
+      "score": 2027,
+      "duration_sec": 64.768,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C3_Exploration",
+      "run": 4,
+      "score": 1913,
+      "duration_sec": 63.978,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C3_Exploration",
+      "run": 5,
+      "score": 2054,
+      "duration_sec": 64.934,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 2008,
+      "duration_sec": 46.325,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 1981,
+      "duration_sec": 48.823,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C4_Balanced",
+      "run": 3,
+      "score": 1941,
+      "duration_sec": 45.716,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C4_Balanced",
+      "run": 4,
+      "score": 2028,
+      "duration_sec": 48.026,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C4_Balanced",
+      "run": 5,
+      "score": 2044,
+      "duration_sec": 49.603,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C4_Balanced",
+      "run": 6,
+      "score": 2004,
+      "duration_sec": 46.636,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C4_Balanced",
+      "run": 7,
+      "score": 1892,
+      "duration_sec": 44.217,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 2016,
+      "duration_sec": 42.01,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 2094,
+      "duration_sec": 43.57,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 1940,
+      "duration_sec": 42.721,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 4,
+      "score": 1943,
+      "duration_sec": 42.995,
+      "timed_out": false
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 5,
+      "score": 2027,
+      "duration_sec": 2258.444,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 922,
+      "duration_sec": 1.148,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 917,
+      "duration_sec": 1.082,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 3,
+      "score": 932,
+      "duration_sec": 1.098,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 4,
+      "score": 922,
+      "duration_sec": 1.059,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 5,
+      "score": 920,
+      "duration_sec": 1.044,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 6,
+      "score": 917,
+      "duration_sec": 1.101,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 7,
+      "score": 920,
+      "duration_sec": 1.128,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 8,
+      "score": 920,
+      "duration_sec": 1.09,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 9,
+      "score": 917,
+      "duration_sec": 0.989,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 10,
+      "score": 912,
+      "duration_sec": 1.09,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 902,
+      "duration_sec": 1.039,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 922,
+      "duration_sec": 1.076,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 3,
+      "score": 917,
+      "duration_sec": 1.008,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 4,
+      "score": 917,
+      "duration_sec": 1.042,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 5,
+      "score": 915,
+      "duration_sec": 1.069,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 6,
+      "score": 917,
+      "duration_sec": 1.194,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 7,
+      "score": 917,
+      "duration_sec": 1.066,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 8,
+      "score": 922,
+      "duration_sec": 0.997,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 9,
+      "score": 917,
+      "duration_sec": 0.966,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 10,
+      "score": 907,
+      "duration_sec": 1.043,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 932,
+      "duration_sec": 1.182,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 920,
+      "duration_sec": 1.178,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 3,
+      "score": 932,
+      "duration_sec": 1.107,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 4,
+      "score": 917,
+      "duration_sec": 1.162,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 5,
+      "score": 920,
+      "duration_sec": 1.112,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 6,
+      "score": 932,
+      "duration_sec": 1.061,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 7,
+      "score": 932,
+      "duration_sec": 1.182,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 8,
+      "score": 917,
+      "duration_sec": 1.526,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 9,
+      "score": 932,
+      "duration_sec": 1.427,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 10,
+      "score": 922,
+      "duration_sec": 1.281,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 900,
+      "duration_sec": 1.041,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 917,
+      "duration_sec": 1.337,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 3,
+      "score": 923,
+      "duration_sec": 1.215,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 4,
+      "score": 920,
+      "duration_sec": 1.167,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 5,
+      "score": 920,
+      "duration_sec": 1.031,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 6,
+      "score": 922,
+      "duration_sec": 0.93,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 7,
+      "score": 922,
+      "duration_sec": 0.949,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 8,
+      "score": 922,
+      "duration_sec": 0.93,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 9,
+      "score": 922,
+      "duration_sec": 0.915,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 10,
+      "score": 920,
+      "duration_sec": 0.917,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 910,
+      "duration_sec": 0.777,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 915,
+      "duration_sec": 0.831,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 914,
+      "duration_sec": 0.909,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 4,
+      "score": 917,
+      "duration_sec": 0.752,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 5,
+      "score": 917,
+      "duration_sec": 0.799,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 6,
+      "score": 910,
+      "duration_sec": 0.84,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 7,
+      "score": 932,
+      "duration_sec": 0.766,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 8,
+      "score": 917,
+      "duration_sec": 0.758,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 9,
+      "score": 932,
+      "duration_sec": 0.885,
+      "timed_out": false
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 10,
+      "score": 922,
+      "duration_sec": 0.747,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 1446,
+      "duration_sec": 2.638,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 1430,
+      "duration_sec": 3.192,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 3,
+      "score": 1384,
+      "duration_sec": 3.31,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 4,
+      "score": 1467,
+      "duration_sec": 2.919,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 5,
+      "score": 1419,
+      "duration_sec": 3.525,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 6,
+      "score": 1428,
+      "duration_sec": 3.24,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 7,
+      "score": 1414,
+      "duration_sec": 3.187,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 8,
+      "score": 1444,
+      "duration_sec": 3.264,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 9,
+      "score": 1420,
+      "duration_sec": 3.126,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 10,
+      "score": 1406,
+      "duration_sec": 3.209,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 1359,
+      "duration_sec": 3.324,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 1302,
+      "duration_sec": 3.028,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 3,
+      "score": 1369,
+      "duration_sec": 3.13,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 4,
+      "score": 1367,
+      "duration_sec": 3.451,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 5,
+      "score": 1386,
+      "duration_sec": 3.725,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 6,
+      "score": 1387,
+      "duration_sec": 3.85,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 7,
+      "score": 1366,
+      "duration_sec": 2.918,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 8,
+      "score": 1293,
+      "duration_sec": 2.875,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 9,
+      "score": 1366,
+      "duration_sec": 2.979,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 10,
+      "score": 1356,
+      "duration_sec": 3.133,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 1438,
+      "duration_sec": 3.598,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 1425,
+      "duration_sec": 3.791,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 3,
+      "score": 1436,
+      "duration_sec": 3.66,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 4,
+      "score": 1397,
+      "duration_sec": 3.509,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 5,
+      "score": 1469,
+      "duration_sec": 3.723,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 6,
+      "score": 1422,
+      "duration_sec": 3.815,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 7,
+      "score": 1421,
+      "duration_sec": 4.276,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 8,
+      "score": 1505,
+      "duration_sec": 4.409,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 9,
+      "score": 1416,
+      "duration_sec": 3.762,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 10,
+      "score": 1450,
+      "duration_sec": 3.712,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 1429,
+      "duration_sec": 3.037,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 1384,
+      "duration_sec": 2.932,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 3,
+      "score": 1456,
+      "duration_sec": 2.995,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 4,
+      "score": 1462,
+      "duration_sec": 3.115,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 5,
+      "score": 1443,
+      "duration_sec": 3.285,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 6,
+      "score": 1401,
+      "duration_sec": 3.123,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 7,
+      "score": 1434,
+      "duration_sec": 2.813,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 8,
+      "score": 1423,
+      "duration_sec": 3.288,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 9,
+      "score": 1412,
+      "duration_sec": 2.723,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 10,
+      "score": 1388,
+      "duration_sec": 2.78,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 1386,
+      "duration_sec": 2.56,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 1412,
+      "duration_sec": 2.453,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 1402,
+      "duration_sec": 2.292,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 4,
+      "score": 1438,
+      "duration_sec": 2.077,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 5,
+      "score": 1490,
+      "duration_sec": 2.495,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 6,
+      "score": 1476,
+      "duration_sec": 2.316,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 7,
+      "score": 1425,
+      "duration_sec": 2.504,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 8,
+      "score": 1459,
+      "duration_sec": 2.486,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 9,
+      "score": 1487,
+      "duration_sec": 2.333,
+      "timed_out": false
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 10,
+      "score": 1416,
+      "duration_sec": 2.503,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 1447,
+      "duration_sec": 2.972,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 1500,
+      "duration_sec": 3.283,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 3,
+      "score": 1555,
+      "duration_sec": 3.342,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 4,
+      "score": 1502,
+      "duration_sec": 2.918,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 5,
+      "score": 1540,
+      "duration_sec": 3.04,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 6,
+      "score": 1502,
+      "duration_sec": 3.247,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 7,
+      "score": 1500,
+      "duration_sec": 3.444,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 8,
+      "score": 1535,
+      "duration_sec": 3.346,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 9,
+      "score": 1403,
+      "duration_sec": 3.395,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 10,
+      "score": 1482,
+      "duration_sec": 2.979,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 1468,
+      "duration_sec": 3.064,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 1308,
+      "duration_sec": 2.603,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 3,
+      "score": 1487,
+      "duration_sec": 3.273,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 4,
+      "score": 1367,
+      "duration_sec": 2.853,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 5,
+      "score": 1559,
+      "duration_sec": 3.034,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 6,
+      "score": 1362,
+      "duration_sec": 3.19,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 7,
+      "score": 1464,
+      "duration_sec": 3.167,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 8,
+      "score": 1482,
+      "duration_sec": 3.272,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 9,
+      "score": 1401,
+      "duration_sec": 3.052,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 10,
+      "score": 1405,
+      "duration_sec": 3.912,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 1570,
+      "duration_sec": 5.715,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 1476,
+      "duration_sec": 3.898,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 3,
+      "score": 1565,
+      "duration_sec": 3.905,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 4,
+      "score": 1461,
+      "duration_sec": 3.639,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 5,
+      "score": 1449,
+      "duration_sec": 3.772,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 6,
+      "score": 1494,
+      "duration_sec": 4.301,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 7,
+      "score": 1451,
+      "duration_sec": 4.151,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 8,
+      "score": 1459,
+      "duration_sec": 3.935,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 9,
+      "score": 1598,
+      "duration_sec": 3.457,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 10,
+      "score": 1493,
+      "duration_sec": 3.545,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 1484,
+      "duration_sec": 2.558,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 1462,
+      "duration_sec": 2.739,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 3,
+      "score": 1489,
+      "duration_sec": 2.783,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 4,
+      "score": 1417,
+      "duration_sec": 2.76,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 5,
+      "score": 1503,
+      "duration_sec": 2.841,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 6,
+      "score": 1450,
+      "duration_sec": 4.448,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 7,
+      "score": 1475,
+      "duration_sec": 2.756,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 8,
+      "score": 1513,
+      "duration_sec": 2.719,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 9,
+      "score": 1664,
+      "duration_sec": 3.079,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 10,
+      "score": 1495,
+      "duration_sec": 3.02,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 1467,
+      "duration_sec": 2.457,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 1491,
+      "duration_sec": 2.535,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 1510,
+      "duration_sec": 2.29,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 4,
+      "score": 1465,
+      "duration_sec": 2.204,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 5,
+      "score": 1506,
+      "duration_sec": 2.494,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 6,
+      "score": 1490,
+      "duration_sec": 2.087,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 7,
+      "score": 1531,
+      "duration_sec": 2.355,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 8,
+      "score": 1524,
+      "duration_sec": 3.09,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 9,
+      "score": 1424,
+      "duration_sec": 3.371,
+      "timed_out": false
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 10,
+      "score": 1493,
+      "duration_sec": 2.69,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 2398,
+      "duration_sec": 79.432,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 2449,
+      "duration_sec": 93.896,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C1_Baseline",
+      "run": 3,
+      "score": 2371,
+      "duration_sec": 89.165,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C1_Baseline",
+      "run": 4,
+      "score": 2516,
+      "duration_sec": 87.36,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 2537,
+      "duration_sec": 81.341,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 2320,
+      "duration_sec": 65.528,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C2_Exploitation",
+      "run": 3,
+      "score": 2596,
+      "duration_sec": 73.177,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C2_Exploitation",
+      "run": 4,
+      "score": 2447,
+      "duration_sec": 84.806,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 2545,
+      "duration_sec": 88.58,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 2501,
+      "duration_sec": 92.859,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C3_Exploration",
+      "run": 3,
+      "score": 2423,
+      "duration_sec": 91.314,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C3_Exploration",
+      "run": 4,
+      "score": 2364,
+      "duration_sec": 90.001,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 2299,
+      "duration_sec": 66.999,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 2318,
+      "duration_sec": 65.934,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C4_Balanced",
+      "run": 3,
+      "score": 2400,
+      "duration_sec": 70.663,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C4_Balanced",
+      "run": 4,
+      "score": 2454,
+      "duration_sec": 62.007,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C4_Balanced",
+      "run": 5,
+      "score": 2642,
+      "duration_sec": 65.105,
+      "timed_out": false
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 2442,
+      "duration_sec": 599.889,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 2064,
+      "duration_sec": 42.405,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 2147,
+      "duration_sec": 45.071,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C1_Baseline",
+      "run": 3,
+      "score": 2067,
+      "duration_sec": 45.596,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C1_Baseline",
+      "run": 4,
+      "score": 2172,
+      "duration_sec": 54.116,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C1_Baseline",
+      "run": 5,
+      "score": 1987,
+      "duration_sec": 43.094,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C1_Baseline",
+      "run": 6,
+      "score": 2143,
+      "duration_sec": 73.781,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 2070,
+      "duration_sec": 52.235,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 2069,
+      "duration_sec": 81.737,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 3,
+      "score": 2092,
+      "duration_sec": 46.936,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 4,
+      "score": 2012,
+      "duration_sec": 34.327,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 5,
+      "score": 2361,
+      "duration_sec": 42.964,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 6,
+      "score": 2075,
+      "duration_sec": 31.249,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 7,
+      "score": 2044,
+      "duration_sec": 39.579,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 2090,
+      "duration_sec": 48.205,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 2070,
+      "duration_sec": 49.175,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C3_Exploration",
+      "run": 3,
+      "score": 2093,
+      "duration_sec": 49.107,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C3_Exploration",
+      "run": 4,
+      "score": 2112,
+      "duration_sec": 51.708,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C3_Exploration",
+      "run": 5,
+      "score": 2037,
+      "duration_sec": 53.499,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C3_Exploration",
+      "run": 6,
+      "score": 2006,
+      "duration_sec": 53.407,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 1968,
+      "duration_sec": 33.598,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 1935,
+      "duration_sec": 37.467,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C4_Balanced",
+      "run": 3,
+      "score": 2062,
+      "duration_sec": 35.689,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C4_Balanced",
+      "run": 4,
+      "score": 2199,
+      "duration_sec": 36.617,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C4_Balanced",
+      "run": 5,
+      "score": 1981,
+      "duration_sec": 33.04,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C4_Balanced",
+      "run": 6,
+      "score": 2132,
+      "duration_sec": 36.003,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C4_Balanced",
+      "run": 7,
+      "score": 2168,
+      "duration_sec": 37.301,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C4_Balanced",
+      "run": 8,
+      "score": 1963,
+      "duration_sec": 39.447,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C4_Balanced",
+      "run": 9,
+      "score": 2138,
+      "duration_sec": 39.522,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 2252,
+      "duration_sec": 35.652,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 2051,
+      "duration_sec": 37.022,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 1972,
+      "duration_sec": 35.835,
+      "timed_out": false
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 4,
+      "score": 1965,
+      "duration_sec": 656.655,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 380,
+      "duration_sec": 0.67,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 380,
+      "duration_sec": 0.673,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "run": 3,
+      "score": 380,
+      "duration_sec": 0.691,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "run": 4,
+      "score": 380,
+      "duration_sec": 0.668,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "run": 5,
+      "score": 380,
+      "duration_sec": 0.539,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "run": 6,
+      "score": 380,
+      "duration_sec": 0.884,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "run": 7,
+      "score": 380,
+      "duration_sec": 0.91,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "run": 8,
+      "score": 380,
+      "duration_sec": 0.797,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "run": 9,
+      "score": 380,
+      "duration_sec": 0.613,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "run": 10,
+      "score": 380,
+      "duration_sec": 0.725,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 380,
+      "duration_sec": 0.752,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 380,
+      "duration_sec": 0.651,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "run": 3,
+      "score": 380,
+      "duration_sec": 0.655,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "run": 4,
+      "score": 380,
+      "duration_sec": 0.592,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "run": 5,
+      "score": 380,
+      "duration_sec": 0.769,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "run": 6,
+      "score": 380,
+      "duration_sec": 0.656,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "run": 7,
+      "score": 380,
+      "duration_sec": 0.617,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "run": 8,
+      "score": 380,
+      "duration_sec": 0.63,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "run": 9,
+      "score": 380,
+      "duration_sec": 0.662,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "run": 10,
+      "score": 380,
+      "duration_sec": 0.643,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 380,
+      "duration_sec": 0.717,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 380,
+      "duration_sec": 0.878,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "run": 3,
+      "score": 380,
+      "duration_sec": 0.769,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "run": 4,
+      "score": 380,
+      "duration_sec": 1.019,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "run": 5,
+      "score": 380,
+      "duration_sec": 1.126,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "run": 6,
+      "score": 380,
+      "duration_sec": 0.872,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "run": 7,
+      "score": 380,
+      "duration_sec": 1.098,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "run": 8,
+      "score": 380,
+      "duration_sec": 0.744,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "run": 9,
+      "score": 380,
+      "duration_sec": 0.787,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "run": 10,
+      "score": 380,
+      "duration_sec": 0.689,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 380,
+      "duration_sec": 0.575,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 380,
+      "duration_sec": 0.559,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "run": 3,
+      "score": 380,
+      "duration_sec": 0.805,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "run": 4,
+      "score": 380,
+      "duration_sec": 0.585,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "run": 5,
+      "score": 380,
+      "duration_sec": 0.557,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "run": 6,
+      "score": 380,
+      "duration_sec": 0.702,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "run": 7,
+      "score": 380,
+      "duration_sec": 0.691,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "run": 8,
+      "score": 380,
+      "duration_sec": 0.746,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "run": 9,
+      "score": 380,
+      "duration_sec": 0.546,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "run": 10,
+      "score": 380,
+      "duration_sec": 0.616,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 380,
+      "duration_sec": 0.484,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 380,
+      "duration_sec": 0.485,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 380,
+      "duration_sec": 0.664,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "run": 4,
+      "score": 380,
+      "duration_sec": 0.607,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "run": 5,
+      "score": 380,
+      "duration_sec": 0.561,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "run": 6,
+      "score": 380,
+      "duration_sec": 0.552,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "run": 7,
+      "score": 380,
+      "duration_sec": 0.478,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "run": 8,
+      "score": 380,
+      "duration_sec": 0.578,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "run": 9,
+      "score": 380,
+      "duration_sec": 0.47,
+      "timed_out": false
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "run": 10,
+      "score": 380,
+      "duration_sec": 0.479,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": -1,
+      "duration_sec": 300.046,
+      "timed_out": true
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": -1,
+      "duration_sec": 300.05,
+      "timed_out": true
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": -1,
+      "duration_sec": 300.042,
+      "timed_out": true
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 2440,
+      "duration_sec": 249.592,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 2529,
+      "duration_sec": 227.727,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 2502,
+      "duration_sec": 1938.78,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 1341,
+      "duration_sec": 22.965,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": 1354,
+      "duration_sec": 25.503,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 3,
+      "score": 1525,
+      "duration_sec": 25.454,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 4,
+      "score": 1370,
+      "duration_sec": 23.433,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 5,
+      "score": 1538,
+      "duration_sec": 26.106,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 6,
+      "score": 1371,
+      "duration_sec": 28.339,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 7,
+      "score": 1385,
+      "duration_sec": 22.536,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 8,
+      "score": 1477,
+      "duration_sec": 27.504,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 9,
+      "score": 1497,
+      "duration_sec": 26.18,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 10,
+      "score": 1454,
+      "duration_sec": 24.958,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 1563,
+      "duration_sec": 33.215,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 1332,
+      "duration_sec": 26.382,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 3,
+      "score": 1414,
+      "duration_sec": 32.961,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 4,
+      "score": 1247,
+      "duration_sec": 23.741,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 5,
+      "score": 1404,
+      "duration_sec": 26.421,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 6,
+      "score": 1283,
+      "duration_sec": 29.91,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 7,
+      "score": 1283,
+      "duration_sec": 26.772,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 8,
+      "score": 1249,
+      "duration_sec": 22.627,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 9,
+      "score": 1449,
+      "duration_sec": 26.424,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 10,
+      "score": 1469,
+      "duration_sec": 29.936,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 1427,
+      "duration_sec": 31.3,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 1437,
+      "duration_sec": 31.763,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 3,
+      "score": 1472,
+      "duration_sec": 32.743,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 4,
+      "score": 1427,
+      "duration_sec": 32.321,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 5,
+      "score": 1414,
+      "duration_sec": 32.239,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 6,
+      "score": 1452,
+      "duration_sec": 32.112,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 7,
+      "score": 1503,
+      "duration_sec": 34.188,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 8,
+      "score": 1501,
+      "duration_sec": 29.342,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 9,
+      "score": 1521,
+      "duration_sec": 31.811,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 10,
+      "score": 1444,
+      "duration_sec": 29.897,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 1401,
+      "duration_sec": 24.183,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 1484,
+      "duration_sec": 18.97,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 3,
+      "score": 1494,
+      "duration_sec": 18.689,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 4,
+      "score": 1409,
+      "duration_sec": 17.214,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 5,
+      "score": 1510,
+      "duration_sec": 21.151,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 6,
+      "score": 1513,
+      "duration_sec": 18.148,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 7,
+      "score": 1540,
+      "duration_sec": 19.623,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 8,
+      "score": 1377,
+      "duration_sec": 18.973,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 9,
+      "score": 1509,
+      "duration_sec": 19.061,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 10,
+      "score": 1427,
+      "duration_sec": 17.656,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 1351,
+      "duration_sec": 21.053,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 1499,
+      "duration_sec": 23.029,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 1439,
+      "duration_sec": 20.466,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 4,
+      "score": 1433,
+      "duration_sec": 32.897,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 5,
+      "score": 1373,
+      "duration_sec": 37.319,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 6,
+      "score": 1473,
+      "duration_sec": 31.307,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 7,
+      "score": 1533,
+      "duration_sec": 18.861,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 8,
+      "score": 1439,
+      "duration_sec": 19.196,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 9,
+      "score": 1481,
+      "duration_sec": 20.414,
+      "timed_out": false
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 10,
+      "score": 1348,
+      "duration_sec": 17.722,
+      "timed_out": false
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 1,
+      "score": 1921,
+      "duration_sec": 287.717,
+      "timed_out": false
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C1_Baseline",
+      "run": 2,
+      "score": -1,
+      "duration_sec": 300.039,
+      "timed_out": true
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 1,
+      "score": 1711,
+      "duration_sec": 299.604,
+      "timed_out": false
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C2_Exploitation",
+      "run": 2,
+      "score": 1711,
+      "duration_sec": 267.156,
+      "timed_out": false
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 1,
+      "score": 2013,
+      "duration_sec": 233.039,
+      "timed_out": false
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C3_Exploration",
+      "run": 2,
+      "score": 1877,
+      "duration_sec": 232.765,
+      "timed_out": false
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 1,
+      "score": 1828,
+      "duration_sec": 154.611,
+      "timed_out": false
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C4_Balanced",
+      "run": 2,
+      "score": 2068,
+      "duration_sec": 165.123,
+      "timed_out": false
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 1,
+      "score": 1830,
+      "duration_sec": 142.757,
+      "timed_out": false
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 2,
+      "score": 1799,
+      "duration_sec": 140.373,
+      "timed_out": false
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C5_WidePopulation",
+      "run": 3,
+      "score": 1716,
+      "duration_sec": 140.091,
+      "timed_out": false
+    }
+  ],
+  "summaries": [
+    {
+      "instance": "australia_iptv",
+      "config_name": "C1_Baseline",
+      "best": 2540,
+      "worst": 2474,
+      "avg": 2507.0,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 464.84
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C2_Exploitation",
+      "best": 2578,
+      "worst": 2535,
+      "avg": 2556.5,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 405.44
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C3_Exploration",
+      "best": 2551,
+      "worst": 2495,
+      "avg": 2523.0,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 350.41
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C4_Balanced",
+      "best": 2461,
+      "worst": 2438,
+      "avg": 2449.5,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 815.95
+    },
+    {
+      "instance": "australia_iptv",
+      "config_name": "C5_WidePopulation",
+      "best": 2557,
+      "worst": 2486,
+      "avg": 2510.7,
+      "runs_completed": 3,
+      "runs_timed_out": 0,
+      "total_time_sec": 338.29
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C1_Baseline",
+      "best": 2631,
+      "worst": 2532,
+      "avg": 2581.5,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 330.29
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C2_Exploitation",
+      "best": 2559,
+      "worst": 2520,
+      "avg": 2539.5,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 308.74
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C3_Exploration",
+      "best": 2498,
+      "worst": 2391,
+      "avg": 2444.5,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 372.63
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C4_Balanced",
+      "best": 2464,
+      "worst": 2457,
+      "avg": 2459.7,
+      "runs_completed": 3,
+      "runs_timed_out": 0,
+      "total_time_sec": 432.44
+    },
+    {
+      "instance": "canada_pw",
+      "config_name": "C5_WidePopulation",
+      "best": 2551,
+      "worst": 2464,
+      "avg": 2519.0,
+      "runs_completed": 3,
+      "runs_timed_out": 0,
+      "total_time_sec": 429.96
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C1_Baseline",
+      "best": 1703,
+      "worst": 1591,
+      "avg": 1638.8,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 26.73
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C2_Exploitation",
+      "best": 1705,
+      "worst": 1482,
+      "avg": 1600.4,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 25.21
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C3_Exploration",
+      "best": 1867,
+      "worst": 1642,
+      "avg": 1768.3,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 34.48
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C4_Balanced",
+      "best": 1819,
+      "worst": 1598,
+      "avg": 1680.8,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 22.78
+    },
+    {
+      "instance": "croatia_tv_input",
+      "config_name": "C5_WidePopulation",
+      "best": 1974,
+      "worst": 1635,
+      "avg": 1751.2,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 21.32
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C1_Baseline",
+      "best": 2029,
+      "worst": 1913,
+      "avg": 1979.3,
+      "runs_completed": 6,
+      "runs_timed_out": 0,
+      "total_time_sec": 351.84
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C2_Exploitation",
+      "best": 2047,
+      "worst": 1864,
+      "avg": 1952.7,
+      "runs_completed": 6,
+      "runs_timed_out": 0,
+      "total_time_sec": 323.02
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C3_Exploration",
+      "best": 2069,
+      "worst": 1913,
+      "avg": 2011.4,
+      "runs_completed": 5,
+      "runs_timed_out": 0,
+      "total_time_sec": 316.82
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C4_Balanced",
+      "best": 2044,
+      "worst": 1892,
+      "avg": 1985.4,
+      "runs_completed": 7,
+      "runs_timed_out": 0,
+      "total_time_sec": 329.35
+    },
+    {
+      "instance": "france_iptv",
+      "config_name": "C5_WidePopulation",
+      "best": 2094,
+      "worst": 1940,
+      "avg": 2004.0,
+      "runs_completed": 5,
+      "runs_timed_out": 0,
+      "total_time_sec": 2429.74
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C1_Baseline",
+      "best": 932,
+      "worst": 912,
+      "avg": 919.9,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 10.83
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C2_Exploitation",
+      "best": 922,
+      "worst": 902,
+      "avg": 915.3,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 10.5
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C3_Exploration",
+      "best": 932,
+      "worst": 917,
+      "avg": 925.6,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 12.22
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C4_Balanced",
+      "best": 923,
+      "worst": 900,
+      "avg": 918.8,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 10.43
+    },
+    {
+      "instance": "germany_tv_input",
+      "config_name": "C5_WidePopulation",
+      "best": 932,
+      "worst": 910,
+      "avg": 918.6,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 8.06
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C1_Baseline",
+      "best": 1467,
+      "worst": 1384,
+      "avg": 1425.8,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 31.61
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C2_Exploitation",
+      "best": 1387,
+      "worst": 1293,
+      "avg": 1355.1,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 32.41
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C3_Exploration",
+      "best": 1505,
+      "worst": 1397,
+      "avg": 1437.9,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 38.25
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C4_Balanced",
+      "best": 1462,
+      "worst": 1384,
+      "avg": 1423.2,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 30.09
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "config_name": "C5_WidePopulation",
+      "best": 1490,
+      "worst": 1386,
+      "avg": 1439.1,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 24.02
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C1_Baseline",
+      "best": 1555,
+      "worst": 1403,
+      "avg": 1496.6,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 31.96
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C2_Exploitation",
+      "best": 1559,
+      "worst": 1308,
+      "avg": 1430.3,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 31.42
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C3_Exploration",
+      "best": 1598,
+      "worst": 1449,
+      "avg": 1501.6,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 40.32
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C4_Balanced",
+      "best": 1664,
+      "worst": 1417,
+      "avg": 1495.2,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 29.7
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "config_name": "C5_WidePopulation",
+      "best": 1531,
+      "worst": 1424,
+      "avg": 1490.1,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 25.57
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C1_Baseline",
+      "best": 2516,
+      "worst": 2371,
+      "avg": 2433.5,
+      "runs_completed": 4,
+      "runs_timed_out": 0,
+      "total_time_sec": 349.85
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C2_Exploitation",
+      "best": 2596,
+      "worst": 2320,
+      "avg": 2475.0,
+      "runs_completed": 4,
+      "runs_timed_out": 0,
+      "total_time_sec": 304.85
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C3_Exploration",
+      "best": 2545,
+      "worst": 2364,
+      "avg": 2458.2,
+      "runs_completed": 4,
+      "runs_timed_out": 0,
+      "total_time_sec": 362.75
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C4_Balanced",
+      "best": 2642,
+      "worst": 2299,
+      "avg": 2422.6,
+      "runs_completed": 5,
+      "runs_timed_out": 0,
+      "total_time_sec": 330.71
+    },
+    {
+      "instance": "singapore_pw",
+      "config_name": "C5_WidePopulation",
+      "best": 2442,
+      "worst": 2442,
+      "avg": 2442.0,
+      "runs_completed": 1,
+      "runs_timed_out": 0,
+      "total_time_sec": 599.89
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C1_Baseline",
+      "best": 2172,
+      "worst": 1987,
+      "avg": 2096.7,
+      "runs_completed": 6,
+      "runs_timed_out": 0,
+      "total_time_sec": 304.06
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C2_Exploitation",
+      "best": 2361,
+      "worst": 2012,
+      "avg": 2103.3,
+      "runs_completed": 7,
+      "runs_timed_out": 0,
+      "total_time_sec": 329.03
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C3_Exploration",
+      "best": 2112,
+      "worst": 2006,
+      "avg": 2068.0,
+      "runs_completed": 6,
+      "runs_timed_out": 0,
+      "total_time_sec": 305.1
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C4_Balanced",
+      "best": 2199,
+      "worst": 1935,
+      "avg": 2060.7,
+      "runs_completed": 9,
+      "runs_timed_out": 0,
+      "total_time_sec": 328.68
+    },
+    {
+      "instance": "spain_iptv",
+      "config_name": "C5_WidePopulation",
+      "best": 2252,
+      "worst": 1965,
+      "avg": 2060.0,
+      "runs_completed": 4,
+      "runs_timed_out": 0,
+      "total_time_sec": 765.16
+    },
+    {
+      "instance": "toy",
+      "config_name": "C1_Baseline",
+      "best": 380,
+      "worst": 380,
+      "avg": 380.0,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 7.17
+    },
+    {
+      "instance": "toy",
+      "config_name": "C2_Exploitation",
+      "best": 380,
+      "worst": 380,
+      "avg": 380.0,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 6.63
+    },
+    {
+      "instance": "toy",
+      "config_name": "C3_Exploration",
+      "best": 380,
+      "worst": 380,
+      "avg": 380.0,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 8.7
+    },
+    {
+      "instance": "toy",
+      "config_name": "C4_Balanced",
+      "best": 380,
+      "worst": 380,
+      "avg": 380.0,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 6.38
+    },
+    {
+      "instance": "toy",
+      "config_name": "C5_WidePopulation",
+      "best": 380,
+      "worst": 380,
+      "avg": 380.0,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 5.36
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C1_Baseline",
+      "best": -1,
+      "worst": -1,
+      "avg": -1.0,
+      "runs_completed": 0,
+      "runs_timed_out": 1,
+      "total_time_sec": 0.0
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C2_Exploitation",
+      "best": -1,
+      "worst": -1,
+      "avg": -1.0,
+      "runs_completed": 0,
+      "runs_timed_out": 1,
+      "total_time_sec": 0.0
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C3_Exploration",
+      "best": -1,
+      "worst": -1,
+      "avg": -1.0,
+      "runs_completed": 0,
+      "runs_timed_out": 1,
+      "total_time_sec": 0.0
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C4_Balanced",
+      "best": 2529,
+      "worst": 2440,
+      "avg": 2484.5,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 477.32
+    },
+    {
+      "instance": "uk_iptv",
+      "config_name": "C5_WidePopulation",
+      "best": 2502,
+      "worst": 2502,
+      "avg": 2502.0,
+      "runs_completed": 1,
+      "runs_timed_out": 0,
+      "total_time_sec": 1938.78
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C1_Baseline",
+      "best": 1538,
+      "worst": 1341,
+      "avg": 1431.2,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 252.98
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C2_Exploitation",
+      "best": 1563,
+      "worst": 1247,
+      "avg": 1369.3,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 278.39
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C3_Exploration",
+      "best": 1521,
+      "worst": 1414,
+      "avg": 1459.8,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 317.72
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C4_Balanced",
+      "best": 1540,
+      "worst": 1377,
+      "avg": 1466.4,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 193.67
+    },
+    {
+      "instance": "uk_tv_input",
+      "config_name": "C5_WidePopulation",
+      "best": 1533,
+      "worst": 1348,
+      "avg": 1436.9,
+      "runs_completed": 10,
+      "runs_timed_out": 0,
+      "total_time_sec": 242.26
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C1_Baseline",
+      "best": 1921,
+      "worst": 1921,
+      "avg": 1921.0,
+      "runs_completed": 1,
+      "runs_timed_out": 1,
+      "total_time_sec": 287.72
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C2_Exploitation",
+      "best": 1711,
+      "worst": 1711,
+      "avg": 1711.0,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 566.76
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C3_Exploration",
+      "best": 2013,
+      "worst": 1877,
+      "avg": 1945.0,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 465.8
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C4_Balanced",
+      "best": 2068,
+      "worst": 1828,
+      "avg": 1948.0,
+      "runs_completed": 2,
+      "runs_timed_out": 0,
+      "total_time_sec": 319.73
+    },
+    {
+      "instance": "usa_tv_input",
+      "config_name": "C5_WidePopulation",
+      "best": 1830,
+      "worst": 1716,
+      "avg": 1781.7,
+      "runs_completed": 3,
+      "runs_timed_out": 0,
+      "total_time_sec": 423.22
+    }
+  ]
+}

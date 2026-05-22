@@ -1,0 +1,130 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "elgaragetv_es_esa_inexplicable_pasi_n__2026-01-04_0000",
+            "channel_id": 88,
+            "start": 0,
+            "end": 60
+        },
+        {
+            "program_id": "navarratelevision__navarra_en_abierto_2026-01-04_0060",
+            "channel_id": 203,
+            "start": 60,
+            "end": 180
+        },
+        {
+            "program_id": "cnnint_es_world_sport_2026-01-04_0180",
+            "channel_id": 43,
+            "start": 180,
+            "end": 210
+        },
+        {
+            "program_id": "aljazeeraenglish_e_the_stream_2026-01-04_0210",
+            "channel_id": 12,
+            "start": 210,
+            "end": 240
+        },
+        {
+            "program_id": "24horas_es_telediario_internacional_2026-01-04_0240",
+            "channel_id": 1,
+            "start": 240,
+            "end": 270
+        },
+        {
+            "program_id": "veo7_es_flashpoint_2026-01-04_0270",
+            "channel_id": 262,
+            "start": 270,
+            "end": 315
+        },
+        {
+            "program_id": "veo7_es_flashpoint_2026-01-04_0315",
+            "channel_id": 262,
+            "start": 315,
+            "end": 360
+        },
+        {
+            "program_id": "daznlaliga_es_dazn_laliga_2026-01-04_0360",
+            "channel_id": 71,
+            "start": 360,
+            "end": 720
+        },
+        {
+            "program_id": "bloomberg_es_best_of_the_earthshot_pr_2026-01-04_0720",
+            "channel_id": 35,
+            "start": 720,
+            "end": 750
+        },
+        {
+            "program_id": "tvcolombia_es_vivendo_tv_2026-01-04_0750",
+            "channel_id": 243,
+            "start": 750,
+            "end": 780
+        },
+        {
+            "program_id": "navarratelevision__tiramillas_2026-01-04_0780",
+            "channel_id": 203,
+            "start": 780,
+            "end": 840
+        },
+        {
+            "program_id": "la8burgos_es_deportes_de_aventura_2026-01-04_0840",
+            "channel_id": 120,
+            "start": 840,
+            "end": 900
+        },
+        {
+            "program_id": "aljazeeraenglish_e_news_live_2026-01-04_0900",
+            "channel_id": 12,
+            "start": 900,
+            "end": 930
+        },
+        {
+            "program_id": "hbomaxavances_es_expedition_bigfoot_escuc_2026-01-04_0930",
+            "channel_id": 106,
+            "start": 930,
+            "end": 975
+        },
+        {
+            "program_id": "laligatvbar_es_laliga_ea_sports_t25_26__2026-01-04_0975",
+            "channel_id": 124,
+            "start": 975,
+            "end": 1095
+        },
+        {
+            "program_id": "laligatvbar3_es_laliga_hypermotion_2026-01-04_1110",
+            "channel_id": 115,
+            "start": 1110,
+            "end": 1230
+        },
+        {
+            "program_id": "canalextremadura_e_extremadura_noticias_2_2026-01-04_1230",
+            "channel_id": 49,
+            "start": 1230,
+            "end": 1260
+        },
+        {
+            "program_id": "aljazeeraenglish_e_news_live_2026-01-04_1260",
+            "channel_id": 12,
+            "start": 1260,
+            "end": 1290
+        },
+        {
+            "program_id": "bbcworld_es_discovering_the_world_s__2026-01-04_1290",
+            "channel_id": 28,
+            "start": 1290,
+            "end": 1320
+        },
+        {
+            "program_id": "mtvmusic_es_nick_music_2026-01-04_1320",
+            "channel_id": 188,
+            "start": 1320,
+            "end": 1380
+        },
+        {
+            "program_id": "laligatvbar_es_el_post_de_la_jornada_t2_2026-01-04_1380",
+            "channel_id": 124,
+            "start": 1380,
+            "end": 1410
+        }
+    ]
+}
