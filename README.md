@@ -441,4 +441,32 @@ python experiment_runner.py --local-search --ls-iterations 150 --instances germa
 
 Output CSV/JSON will include additional LS columns: `ls_score`, `ls_improvement`, `ls_time_sec` (per run) and `ls_best`, `ls_avg`, `ls_improvement_avg`, `ls_total_time_sec` (per config summary).
 
+### Results Summary — ACO vs ACO + Hill Climbing
+
+Best score achieved per instance across all 5 configurations (10 runs each).  
+`*` china_pw ACO scores are taken from the ACO+LS experiment run (not included in the standalone ACO experiment).
+
+| Instance | ACO Best | Best Config | ACO+LS Best | Best LS Config | Improvement | Improvement % |
+|---|---:|---|---:|---|---:|---:|
+| australia_iptv | 2,578 | C2 | 2,881 | C2 | +303 | +11.8% |
+| canada_pw | 2,631 | C1 | 3,680 | C5 | +1,049 | +39.9% |
+| china_pw* | 1,959 | C3 | 2,007 | C3 | +48 | +2.5% |
+| croatia_tv_input | 1,974 | C5 | 2,021 | C5 | +47 | +2.4% |
+| france_iptv | 2,094 | C5 | 2,441 | C2 | +347 | +16.6% |
+| germany_tv_input | 932 | C1/C3/C5 | 932 | — | 0 | 0% |
+| kosovo_tv_input | 1,505 | C3 | 1,534 | C3 | +29 | +1.9% |
+| netherlands_tv_input | 1,664 | C4 | 1,692 | C4 | +28 | +1.7% |
+| singapore_pw | 2,642 | C4 | 3,318 | C4 | +676 | +25.6% |
+| spain_iptv | 2,361 | C2 | 2,611 | C2 | +250 | +10.6% |
+| toy | 380 | all | 380 | — | 0 | 0% |
+| uk_iptv | 2,529 | C4 | 3,193 | C3 | +664 | +26.3% |
+| uk_tv_input | 1,563 | C2 | 1,796 | C4 | +233 | +14.9% |
+| usa_tv_input | 2,068 | C4 | 2,571 | C4 | +503 | +24.3% |
+
+**Key observations:**
+- LS improves every feasible instance except `germany_tv_input` and `toy` (ACO already reaches optimal)
+- Largest gains on complex instances: `canada_pw` (+1,049), `singapore_pw` (+676), `uk_iptv` (+664)
+- LS compensates for weaker ACO configs — on `canada_pw`, C2 had a weaker ACO score (2,559) but after LS reached 3,654, nearly matching C5's LS best of 3,680
+- Beam Search systematic experiment results are not available for comparison
+
 ---
